@@ -468,6 +468,10 @@ ul,ol{margin:0;padding:0;list-style:none}
   transition:background .25s,color .25s,transform .25s var(--ease),border-color .25s}
 .towns li:hover{background:var(--green);color:var(--cream);
   border-color:var(--green);transform:translateY(-3px)}
+.towns .towns__more{background:transparent;border-style:dashed;
+  border-color:var(--tan-d);color:var(--tan-d);font-style:italic}
+.towns .towns__more:hover{background:var(--tan);color:var(--green-d);
+  border-color:var(--tan);border-style:solid}
 .towns__note{text-align:center;margin-top:30px;font-size:16px;color:var(--ink-soft);
   font-style:italic}
 
